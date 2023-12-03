@@ -17,7 +17,7 @@ Installation
 1. Clone or download this repository to your local machine.
 2. Install the required Python libraries using pip install esptool ampy psutil.
 Usage
-1. Run the script python micropython_auto.py.
+1. Run the script python esp_flasher.py.
 2. Enter the port name and paths for the firmware and script files.
 3. Use the GUI buttons to erase flash, write flash, upload scripts, and check script status.
 
