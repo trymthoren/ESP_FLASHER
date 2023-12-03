@@ -4,19 +4,24 @@ ESP Flash & Script Tool
 Description
 This tool provides a simple graphical user interface (GUI) for flashing firmware and uploading MicroPython scripts to ESP devices. It's designed to make the process of working with ESP modules more straightforward and user-friendly.
 Features
+
 • Erase flash memory on ESP.
 • Write new firmware to the ESP.
 • Upload MicroPython scripts to the ESP.
 • Check if a specific script is running on your computer.
 Requirements
+
 • Python 3.x
+• PyQt5 for GUI
 • esptool.py for flashing firmware.
 • ampy for uploading MicroPython scripts.
 • psutil for process management.
 Installation
+
 1. Clone or download this repository to your local machine.
 2. Install the required Python libraries using pip install esptool ampy psutil.
 Usage
+
 1. Run the script python esp_flasher.py.
 2. Enter the port name and paths for the firmware and script files.
 3. Use the GUI buttons to erase flash, write flash, upload scripts, and check script status.
